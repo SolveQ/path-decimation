@@ -7,8 +7,8 @@ on:
     branches:
       - main
 jobs:
-  release:
-    name: Release
+  test:
+    name: Spec tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
